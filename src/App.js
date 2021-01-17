@@ -5,13 +5,13 @@ function App() {
 		<Router>
 			<Switch>
 				<Route path="/projects">
-					<Projects />
+					{/* <Projects /> */}
 				</Route>
 				<Route path="/users">
-					<Users />
+					{/* <Users /> */}
 				</Route>
 				<Route path="/">
-					<Home />
+					{/* <Home /> */}
 				</Route>
 			</Switch>
 		</Router>
