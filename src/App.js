@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Home from "./components/home";
 
 function App() {
 	return (
@@ -11,7 +12,7 @@ function App() {
 					{/* <Users /> */}
 				</Route>
 				<Route path="/">
-					{/* <Home /> */}
+					<Home />
 				</Route>
 			</Switch>
 		</Router>
